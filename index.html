@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Crazy Bar Home</title>
+  <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>&nbsp;
+      <li><a href="countryTable.html">Link</a></li>&nbsp;
+      <li><a href="checkout.html">Link</a></li>
+    </ul>
+  </nav>
+  <div class="clearFloat"></div>
+  <article id="container">
+  <heading class="main">
+    <div id="">
+    <h1>Crazy Bar</h1>
+    <h3>Where you'll find the craziest drinks in town!</h3>
+    </div>
+  </heading>
+    <section>
+      <fieldset>
+        <legend>Our Crazy Drink Specials</legend>
+      <table id="intro">
+        <tr>
+          <th>Crazy Drinks</th>
+          <th>Description</th>
+          <th>Regular Price</th>
+          <th>Crazy's Special</th>
+        </tr>
+        <tr>
+          <td>Orange Cognac Tripple Smoothie</td>
+          <td>Orange rinds fermented in cognac blended with vanilla ice cream and a shot of bourbon</td>
+          <td>$10.00</td>
+          <td>$6.50</td>
+        </tr>
+        <tr>
+          <td>Green Grass Gopher Juice</td>
+          <td>Mixture of rum, wheatgrass, and candy apple aperitif</td>
+          <td>$13.50</td>
+          <td>$9.00</td>
+        </tr>
+        <tr>
+          <td>Purple Toad in a glass</td>
+          <td>Topshelf Gin, Cherry juice, and Cherry Schnapps</td>
+          <td>$13.50</td>
+          <td>$9.00</td>
+        </tr>
+      </table>
+    </fieldset>
+    </section>
+    <section>
+      <h4>Staff's Fav Books</h4>
+      <ol>
+        <li>Running Away From You</li>
+        <li>Drowned Rats in Paradise</li>
+        <li>First Contact With Strange People</li>
+      </ol>
+    </section>
+    <section>
+      <form method="post" action="/crazybar.com/list.php">
+        <fieldset>
+          <legend>Newsletter Signup</legend>
+          <span>First Name: <input type="text" name="fName" id="">&nbsp;<label><br /></span>
+          <span>Gender:&nbsp;<input type="radio" name="gender" value="female">&nbsp;<label>Female</label>&nbsp;
+            <input type="radio" name="gender" value="male">&nbsp;<label>Male</label>&nbsp;
+            <input type="radio" name="gender" value="other">&nbsp;<label>Other</label></span><br />
+          <span>Age: <input type="number" name="age" min="21" value="age">&nbsp;<label></label></span><br />
+          <span>Birthday: <input type="date" name="bday">&nbsp;</span><br />
+          <span>Email Address: <input type="email" name="userEmail">&nbsp;</span><br />
+          <button type="button" onclick="submit()">Submit to Crazy Bar!</button>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <h2>Scales of Justice!</h2>
+      <figure>
+      <img src="art/scales.png" width="100px" height="100px"/>
+      <figcaption>Balanced Beam Scales ping image</figcaption>
+    </figure>
+    </section>
+  </article>
+
+  <footer>
+    <small> &copy;1885</small>
+  </footer>
+</body>
+</html>
