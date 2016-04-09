@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+#container {
+  margin: 0 auto;
+  width: 80%;
+}
+.main {
+  text-align: center;
+  font-family: cursive;
+}
+#intro {
+  position: relative;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+nav ul {
+  float: right;
+  position: relative;
+  right: 5%;
+}
+nav li {
+  background-color: #d9d9d9;
+  display: inline;
+  margin-right: 10px;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:active {
+  background-color: darkgrey;
+  color: white;
+}
+.clearFloat {
+  clear: both;
+}
+form {
+  line-height: 1.5em;
+}
+table, th, td {
+  border-bottom: 1px solid #d9d9d9;
+  border-collapse: collapse;
+  padding: 10px;
+  padding-left: 20px;
+}
