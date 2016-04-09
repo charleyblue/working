@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #FAE652;
+}
+#wrapper {
+  background: repeating-radial-gradient(circle at 0 0,  #ED5C00, #ff8566 50px);
+  height: 500px;
+  margin: 0 auto;
+  width: 80%;
+
+}
+#header {
+
+}
+#leftBlock {
+
+}
+#rightBlock {
+
+}
+#footer {
+
+}
