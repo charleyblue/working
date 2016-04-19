@@ -29,6 +29,7 @@ body {
   clear: right;
 }*/
 #header {
+    border: 1px dashed red;
 }
 #header a {
   background-color: #276440;
@@ -65,6 +66,7 @@ body {
   text-shadow: 1px 1px #000;
 }
 #leftBox {
+    border: 1px dashed red;
   display: inline-block;
   width: 50%;
   vertical-align: top;
@@ -78,6 +80,7 @@ body {
   margin-left: 10%;
 }
 #rightBox {
+    border: 1px dashed red;
   color: #000;
   display: inline-block;
   width: 50%;
