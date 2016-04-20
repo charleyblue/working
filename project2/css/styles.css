@@ -6,14 +6,14 @@ body {
     height: 100%;
 }
 .jumbotron {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)), url(../images/brickBg.jpg);
+    background: linear-gradient(to right, rgba(128, 128, 128, 0.4), rgba(128, 128, 128, 0.8), rgba(128, 128, 128, 0.9), rgba(128, 128, 128, 0.8), rgba(128, 128, 128, 0.4)), url(../images/brickBg.jpg);
     min-height: 450px;
 }
 .jumbotron h1 {
     color: #000033;
     font-size: 2.75em;
     text-align: center;
-    text-shadow: 1px 1px 5px #0000BF;
+    /*text-shadow: 1px 1px 5px #0000BF;*/
 }
 .container .jumbotron {
     border-radius: 0;
@@ -25,7 +25,7 @@ body {
 .list-unstyled li {
     color: #000033;
     font-size: 1.5em;
-    text-shadow: 1px 1px 2px #0000BF;
+    /*text-shadow: 1px 1px 2px #0000BF;*/
 }
 .cropPic {
     border: 5px solid #797979;
@@ -72,4 +72,9 @@ body {
 }
 .iconImg:hover {
      transform: rotate(300deg);
+}
+#logo {
+    position: relative;
+    left: 50%;
+    padding-bottom: 20px;
 }
